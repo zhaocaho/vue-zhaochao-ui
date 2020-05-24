@@ -1,0 +1,37 @@
+body {
+  font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+  font-size: 0.14rem;
+  line-height: 1;
+  color: #333;
+}
+// vant标签栏的样式修改
+.van-tabs__nav {
+  font-size: 18px;
+  padding-bottom: 0;
+}
+.van-tabs__wrap--scrollable .van-tab {
+  font-size: inherit;
+}
+.van-tab__text {
+  font-size: inherit;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.van-ellipsis {
+  text-overflow: clip;
+}
+
+.van-tabs--line .van-tabs__wrap {
+  height: 100%;
+}
+.van-tabs__wrap--scrollable .van-tab {
+  height: 36px;
+  line-height: 36px;
+}
+.van-tabs__nav--line {
+  // padding-bottom: 8px;
+}
+
+.van-tabs__line {
+  bottom: 0px;
+}

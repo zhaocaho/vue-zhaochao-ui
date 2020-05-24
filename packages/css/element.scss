@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import './layout.scss';
+
+@mixin btn($bgColor: #f5f7fa, $color: #3f6173, $size: 16px) {
+  background-color: $bgColor;
+  color: $color;
+  text-align: center;
+  font-size: $size;
+  height: 35px;
+  line-height: 35px;
+  margin: 0 5px;
+}
+
+@mixin list($direction: column) {
+  @include flex($direction);
+}
+
+@mixin panel($textDirection: left) {
+  @include list;
+  > h2 {
+    text-align: $textDirection;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 7px 12px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
+    height: 49px;
+    line-height: 35px;
+  }
+}
