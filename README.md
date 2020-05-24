@@ -8,8 +8,8 @@
 ### 全局导入
 
      import  zhaochaoUI from 'vue-zhaochao-ui'
-     import 'vue-zhaochao-ui/lib/vue-zhaochao-ui.css'
-
+     import 'vue-zhaochao-ui/dist/vue-zhaochao-ui.css'
+     Vue.use(zhaochaoUI)
 
 ### 图片布局（picLayout）API
 
